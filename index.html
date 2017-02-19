@@ -22,36 +22,64 @@
 </head>
 
 <body >
-	
-	<div class="navbar">
-    <div class="navbar-inner">
+
+
+
+	<div class="navbar navbar-inverse">
+    <div class="navbar-inner" >
     	<div id="mainTitle">
 			<h1>Khalid Saeed</h1>
-			<h2><u>Web Developer Extraordinaire</u></h2>
+			<i class="fa fa-code fa-3x" aria-hidden="true"></i>
+			<h3><u>Software Developer</u></h3>
 		</div>
+		<!--
+		<button class="btn" id="portfolioBtn" >Portfolio</button>
+		<button class="btn" id="contactBtn" >Contact</button>
+		<button class="btn" id="aboutBtn" >About</button>-->
     </div>
-</div>
-
-	
-
-	<div id="bigButtons" >
-		<button type="button" class="btn btn-default btn-circle btn-xl" data-toggle="collapse" data-target="#about">About</button>
-		<button type="button" class="btn btn-default btn-circle btn-xl" data-toggle="collapse" data-target="#contact">Contact</button>
-		<button type="button" class="btn btn-default btn-circle btn-xl" data-toggle="collapse" data-target="#portfolio">Portfolio</button>
 	</div>
 
+	<div id="collapseGroup" >
+		<div id="about">
+			
+			<h4>___________________________________________</h4>
+			<br>
+			<h2 data-toggle="collapse" data-target="#aboutCollapse">About</h2>
 
-	<div id="collapseGroup">
-		<div id="about" class="collapse">
-			<h5>about</h5>
+			<div id="aboutCollapse" class="collapse">
+				<h4>I am a Software Developer with a passion for web <br>development as well as a hunger to hone my craft.</h4>
+			</div>
+			<br>
+			<h4>___________________________________________</h4>
+			<br>
 		</div>
 
-		<div id="contact" class="collapse">
-			<h5>contact</h5>
+		<div id="contact">
+			
+			<h4>___________________________________________</h4>
+			<br>
+			<h2 data-toggle="collapse" data-target="#contactCollapse">Contact</h2>
+			<div id="contactCollapse" class="collapse">
+				<h4>Email: <a href="mailto:khalid.saeed1066@gmail.com?Subject=Linked%20from%20website." target="_top">khalid.saeed1066@gmail.com</a> <br>
+				Mobile Number: 021 0582585
+				</h4>
+			</div>
+			<br>
+			<h4>___________________________________________</h4>
+			<br>
 		</div>
 
-		<div id="portfolio" class="collapse">
-			<h5>portfolio</h5>
+		<div id="portfolio">
+	
+			<h4>___________________________________________</h4>
+			<br>
+			<h2 data-toggle="collapse" data-target="#portfolioCollapse">Portfolio</h2>
+			<div id="portfolioCollapse" class="collapse">
+				<h4>Help me make this section grow!</h4>
+			</div>
+			<br>
+			<h4>___________________________________________</h4>
+			<br>
 		</div>
 	</div>
 

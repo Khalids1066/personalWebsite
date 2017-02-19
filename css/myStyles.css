@@ -1,29 +1,40 @@
+body{
+  background-color: #3c3c3c;
+}
+.navbar{
+  border-style: solid;
+  border-width: medium;
+  border-color:  #af473c;
+}
 #mainTitle{
 	text-align: center;
-	color: #f46042;
+  font-style: italic;
+  color: #af473c;
+
 	
 }
+#about,#aboutBtn{
+  background-color: #af473c;
+  color: #79A237;
 
-body{
 }
-.btn-circle.btn-xl {
-  width: 250px;
-  height: 250px;
-  padding: 10px 16px;
-  font-size: 24px;
-  line-height: 1.33;
-  border-radius: 125px;
-  border-color: #f46042;
-  border-color: #f46042;
-  border-width: thin;
-  color: #f46042;
+#contact,#contactBtn{
+  background-color: #27616c;
+  color: #af473c;
 }
-#bigButtons{
-	text-align: center;
-	margin-top: 10%;
-	margin-bottom: 10%;
-	align-self: center;
+#portfolio, #portfolioBtn{
+  background-color: #79A237;
+  color: #27616c;
+}
 
+.fa{
+ border-width: thin;
+ border-style: solid;
+}
+
+#collapseGroup{
+  color: #af473c;
+  text-align: center;
 }
 .btn:focus,.btn:active {
    outline: none !important;
