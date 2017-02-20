@@ -1,39 +1,54 @@
 body{
-  background-color: #3c3c3c;
+  background-color: #181f27;
+  background-image: url("file:///Users/KhalidsMac/Desktop/personalWebsite/resources/background.jpg");
+  background-size: 100% 100%;
 }
 .navbar{
-  border-style: solid;
-  border-width: medium;
-  border-color:  #af473c;
+ 
+  border-color: transparent;
+  background-color: transparent;
 }
 #mainTitle{
 	text-align: center;
   font-style: italic;
-  color: #af473c;
+  color: #243d41;
+}
+#fontLogo{
+  color: #243d41;
+  border-style: solid;
+  margin: auto;
+  margin-top: 5px;
+  margin-left: 3px;
+  margin-bottom: 5px;
+  display:inline-block;
+  opacity: 0.75;
 
-	
-}
-#about,#aboutBtn{
-  background-color: #af473c;
-  color: #79A237;
-
-}
-#contact,#contactBtn{
-  background-color: #27616c;
-  color: #af473c;
-}
-#portfolio, #portfolioBtn{
-  background-color: #79A237;
-  color: #27616c;
 }
 
-.fa{
+.btn{
+  float: right;  
+  margin: auto;
+  margin-top: 5px;
+   margin-bottom: 5px;
+  margin-right: 3px;
+  display:inline-block;
+  border-color: #243d41;
+  color: #243d41;
+  background-color: transparent;
+  opacity: 0.75;
+}
+
+
+
+
+.fa-code{
  border-width: thin;
  border-style: solid;
 }
 
 #collapseGroup{
-  color: #af473c;
+  color: #d7d9c3;
+  opacity: 0.75;
   text-align: center;
 }
 .btn:focus,.btn:active {

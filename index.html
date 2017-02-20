@@ -2,12 +2,14 @@
 
 <html>
 <head>
-	<title>Khalid Saeed, Web Developer</title>
+	<title>Khalid Saeed | Software Developer</title>
 
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<!-- Font Awesome CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- Devicons CSS -->
+	<link href='//cdn.jsdelivr.net/devicons/1.8.0/css/devicons.min.css' rel='stylesheet'>
 	<!-- My Stylesheet CSS -->
 	<link rel="stylesheet" type="text/css" href="css/myStyles.css">
 
@@ -16,38 +18,52 @@
 	<!-- jQuery library -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
+	<!-- My javaScript file -->
+	<script type="text/javascript" src="js/script.js"></script>
+
 	<!-- Latest compiled JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
 
 </head>
 
 <body >
 
+	<nav class="navbar navbar-inverse">
+	<nav class="navbar-header">
+
+	<h1 id="fontLogo">KS</h1>
+	</nav>
+    <nav class="navbar-inner" >
+ 
+		
+		<button class="btn btn-lg" id="portfolioBtn" data-toggle="collapse" data-target="#portfolioCollapse">Portfolio</button>
+		<button class="btn btn-lg" id="contactBtn" data-toggle="collapse" data-target="#contactCollapse">Contact</button>
+		<button class="btn btn-lg" id="aboutBtn" data-toggle="collapse" data-target="#aboutCollapse">About</button>
+
+    </nav>
+	</nav>
 
 
-	<div class="navbar navbar-inverse">
-    <div class="navbar-inner" >
-    	<div id="mainTitle">
-			<h1>Khalid Saeed</h1>
-			<i class="fa fa-code fa-3x" aria-hidden="true"></i>
-			<h3><u>Software Developer</u></h3>
-		</div>
-		<!--
-		<button class="btn" id="portfolioBtn" >Portfolio</button>
-		<button class="btn" id="contactBtn" >Contact</button>
-		<button class="btn" id="aboutBtn" >About</button>-->
-    </div>
+   	<div id="mainTitle">
+		<h1>Khalid Saeed</h1>
+		<span class="fa fa-code fa-3x" aria-hidden="true"></span>
+		<h3><u>Software Developer</u></h3>
 	</div>
 
-	<div id="collapseGroup" >
+
+
+	<div id="collapseGroup">
 		<div id="about">
 			
 			<h4>___________________________________________</h4>
 			<br>
-			<h2 data-toggle="collapse" data-target="#aboutCollapse">About</h2>
+			<h2 >About</h2>
 
 			<div id="aboutCollapse" class="collapse">
 				<h4>I am a Software Developer with a passion for web <br>development as well as a hunger to hone my craft.</h4>
+				<h4><span class="devicons devicons-npm"> </span></h4>
 			</div>
 			<br>
 			<h4>___________________________________________</h4>
@@ -58,10 +74,11 @@
 			
 			<h4>___________________________________________</h4>
 			<br>
-			<h2 data-toggle="collapse" data-target="#contactCollapse">Contact</h2>
+			<h2 >Contact</h2>
 			<div id="contactCollapse" class="collapse">
-				<h4>Email: <a href="mailto:khalid.saeed1066@gmail.com?Subject=Linked%20from%20website." target="_top">khalid.saeed1066@gmail.com</a> <br>
-				Mobile Number: 021 0582585
+
+				<h4><span class="fa fa-envelope fa-fw" aria-hidden="true"></span>: <a href="mailto:khalid.saeed1066@gmail.com?Subject=Linked%20from%20website.">khalid.saeed1066@gmail.com</a> <br>
+				<span class="fa fa-phone fa-fw" aria-hidden="true"></span>: 021 0582585
 				</h4>
 			</div>
 			<br>
@@ -73,7 +90,7 @@
 	
 			<h4>___________________________________________</h4>
 			<br>
-			<h2 data-toggle="collapse" data-target="#portfolioCollapse">Portfolio</h2>
+			<h2 >Portfolio</h2>
 			<div id="portfolioCollapse" class="collapse">
 				<h4>Help me make this section grow!</h4>
 			</div>
