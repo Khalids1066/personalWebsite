@@ -1,6 +1,6 @@
 body{
   background-color: #181f27;
-  background-image: url("file:///Users/KhalidsMac/Desktop/personalWebsite/resources/background.jpg");
+  background-image: url("http://imgur.com/LEPFDhi");
   background-size: 100% 100%;
 }
 .navbar{
@@ -10,7 +10,6 @@ body{
 }
 #mainTitle{
 	text-align: center;
-  font-style: italic;
   color: #243d41;
 }
 #fontLogo{
