@@ -1,54 +1,49 @@
 body{
-  background-color: #181f27;
-  background-image: url("http://imgur.com/LEPFDhi");
-  background-size: 100% 100%;
+  background-image: url("file:/Users/KhalidsMac/Desktop/personalWebsite/resources/pic.jpg");
+  background-repeat: no-repeat; 
+  background-position: center;
+  background-attachment: fixed;       
+  webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+a:link, a:visited, a:active{
+  color: rgba(0,0,0,0.7);
+}
+a:hover{
+  color: black;
+}
+#logo{
+  color: rgba(0,0,0,.7);
+  background-color: transparent;
+  border-style: solid;
+  border-width: thin;
+  border-color: rgba(0,0,0,.7);
+}
+#codeLogo{
+  border-color: black;
+  border-style: solid;
+  border-width: thin;
+}
+#mainTitle, #homeDiv, #contactDiv, #portfolioDiv{
+  text-align: center;
+  color: rgba(0,0,0,0.7);
 }
 .navbar{
- 
-  border-color: transparent;
-  background-color: transparent;
+  background-color: rgba(0,0,50,.3);
+  border-color: #f0ba7c;
 }
-#mainTitle{
-	text-align: center;
-  color: #243d41;
-}
-#fontLogo{
-  color: #243d41;
-  border-style: solid;
-  margin: auto;
-  margin-top: 5px;
-  margin-left: 3px;
-  margin-bottom: 5px;
-  display:inline-block;
-  opacity: 0.75;
-
-}
-
 .btn{
-  float: right;  
-  margin: auto;
-  margin-top: 5px;
-   margin-bottom: 5px;
-  margin-right: 3px;
-  display:inline-block;
-  border-color: #243d41;
-  color: #243d41;
   background-color: transparent;
-  opacity: 0.75;
-}
-
-
-
-
-.fa-code{
- border-width: thin;
- border-style: solid;
-}
-
-#collapseGroup{
-  color: #d7d9c3;
-  opacity: 0.75;
-  text-align: center;
+  float: right; 
+  border-color: rgba(0,0,0,.7);;
+  color: rgba(0,0,0,.7);
+  opacity: .8;
+  margin-right: 1px;
+  margin-bottom: 1px;
+  margin-top: 1px;
+  display:inline-block;
 }
 .btn:focus,.btn:active {
    outline: none !important;

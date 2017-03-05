@@ -8,97 +8,72 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<!-- Font Awesome CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	<!-- Devicons CSS -->
-	<link href='//cdn.jsdelivr.net/devicons/1.8.0/css/devicons.min.css' rel='stylesheet'>
 	<!-- My Stylesheet CSS -->
 	<link rel="stylesheet" type="text/css" href="css/myStyles.css">
 
 	
-
+	<!-- sticky jquery library -->
+  	<script src="js/jquery.sticky.js"></script>
 	<!-- jQuery library -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
 	<!-- My javaScript file -->
-	<script type="text/javascript" src="js/script.js"></script>
-
+	<script type="text/javascript" src="js/javascript.js"></script>
 	<!-- Latest compiled JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-
-
 </head>
 
-<body >
+<body>
 
-	<nav class="navbar navbar-inverse">
-	<nav class="navbar-header">
+	<!-- navbar -->
+	<div class="navbar navbar-static-top" id="nav">
+		<div class="container">
+			<!-- logo brand -->
+			<a href="#" class="navbar-brand" id="logo">
+		      KS
+		    </a>
 
-	<h1 id="fontLogo">KS</h1>
-	</nav>
-    <nav class="navbar-inner" >
- 
-		
-		<button class="btn btn-lg" id="portfolioBtn" data-toggle="collapse" data-target="#portfolioCollapse">Portfolio</button>
-		<button class="btn btn-lg" id="contactBtn" data-toggle="collapse" data-target="#contactCollapse">Contact</button>
-		<button class="btn btn-lg" id="aboutBtn" data-toggle="collapse" data-target="#aboutCollapse">About</button>
+		    <!-- navbar button when screen becomes certain size -->
+    		<button class="navbar-toggle" data-toggle="collapse" data-target = ".navHeaderCollapse"><span class="glyphicon glyphicon-menu-hamburger"></span></button>
 
-    </nav>
-	</nav>
+		    <!-- navbar buttons -->
+		    <div class="collapse navbar-collapse navHeaderCollapse">
+		    <ul class="nav navbar-nav navbar-right">
+		    	<li><a href="#" class="btn btn-lg" id="homeBtn">Home</a></li>
+		    	<li><a href="#" class="btn btn-lg" id="portfolioBtn">Portfolio</a></li>
+		    	<li><a href="#" class="btn btn-lg" id="contactBtn">Contact</a></li>
+		    </ul>
+		    </div>
+	    </div>
+    </div>
 
-
-   	<div id="mainTitle">
+    <div id="mainTitle">
 		<h1>Khalid Saeed</h1>
-		<span class="fa fa-code fa-3x" aria-hidden="true"></span>
-		<h3><u>Software Developer</u></h3>
+		<span class="fa fa-code fa-3x" aria-hidden="true" id="codeLogo"></span>
+		<h3>Web Developer</h3>
+		____________________________________
+		
 	</div>
 
-
-
-	<div id="collapseGroup">
-		<div id="about">
-			
-			<h4>___________________________________________</h4>
-			<br>
-			<h2 >About</h2>
-
-			<div id="aboutCollapse" class="collapse">
-				<h4>I am a Software Developer with a passion for web <br>development as well as a hunger to hone my craft.</h4>
-				<h4><span class="devicons devicons-npm"> </span></h4>
-			</div>
-			<br>
-			<h4>___________________________________________</h4>
-			<br>
-		</div>
-
-		<div id="contact">
-			
-			<h4>___________________________________________</h4>
-			<br>
-			<h2 >Contact</h2>
-			<div id="contactCollapse" class="collapse">
-
-				<h4><span class="fa fa-envelope fa-fw" aria-hidden="true"></span>: <a href="mailto:khalid.saeed1066@gmail.com?Subject=Linked%20from%20website.">khalid.saeed1066@gmail.com</a> <br>
-				<span class="fa fa-phone fa-fw" aria-hidden="true"></span>: 021 0582585
-				</h4>
-			</div>
-			<br>
-			<h4>___________________________________________</h4>
-			<br>
-		</div>
-
-		<div id="portfolio">
-	
-			<h4>___________________________________________</h4>
-			<br>
-			<h2 >Portfolio</h2>
-			<div id="portfolioCollapse" class="collapse">
-				<h4>Help me make this section grow!</h4>
-			</div>
-			<br>
-			<h4>___________________________________________</h4>
-			<br>
-		</div>
+    <!-- home "page" -->
+	<div id="homeDiv" class="container">
+		<h4>I am a Auckland based Software Developer with a passion for web <br>development as well as a hunger to hone my craft.</h4>
+		<br>
 	</div>
+
+	<div id="portfolioDiv" class="container hidden">
+		<u><h2 >Portfolio</h2></u>
+		
+	</div>
+
+	<div id="contactDiv" class="container hidden">
+		<u><h2 >Contact</h2></u>
+		<a href="mailto:khalid.saeed1066@gmail.com"><span class="fa fa-envelope fa-3x" aria-hidden="true"></span></a>
+		<a href="https://github.com/Khalids1066" target="_blank"><span class="fa fa-github fa-3x" aria-hidden="true"></span></a>
+		
+	</div>
+
 
 </body>
 </html>
