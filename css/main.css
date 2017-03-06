@@ -19,6 +19,7 @@ a:hover {
   background-color: transparent;
   border-style: solid;
   border-width: thin;
+  border-radius: 5%;
   border-color: #f0ba7c; }
 
 #footer {
