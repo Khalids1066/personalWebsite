@@ -1,5 +1,6 @@
 body {
   background-image: url("http://i.imgur.com/UMVjAnS.jpg");
+  background-color: #f0ba7c;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -9,18 +10,16 @@ body {
   background-size: cover; }
 
 a:link, a:visited, a:active {
-  color: rgba(0, 0, 0, 0.7); }
+  color: rgba(0, 0, 0, 0.8); }
 
 a:hover {
-  color: black; }
+  color: #f0ba7c; }
 
 #logo {
   color: #f0ba7c;
   background-color: transparent;
-  border-style: solid;
-  border-width: thin;
-  border-radius: 5%;
-  border-color: #f0ba7c; }
+  border-color: #f0ba7c; 
+}
 
 #footer {
   text-align: center;
@@ -28,22 +27,26 @@ a:hover {
   color: #f0ba7c; }
 
 #codeLogo {
-  border-color: black;
+  border-color: #f0ba7c;
+  color: #f0ba7c;
   border-style: solid;
-  border-width: thin; }
+  border-width: thin; 
+}
 
 #mainTitle, #homeDiv, #contactDiv, #portfolioDiv {
   text-align: center;
-  color: rgba(0, 0, 0, 0.7); }
-
+  color: rgba(0, 0, 0, 0.7); 
+}
+#seperateLine{
+  margin-top: 10px;
+}
 .navbar {
   background-color: rgba(50, 50, 50, 0.5);
-  border-color: #f0ba7c; }
+}
 
-.btn {
+#homeBtn, #portfolioBtn, #contactBtn {
   background-color: transparent;
   float: right;
-  border-color: #f0ba7c;
   color: #f0ba7c;
   margin-right: 1px;
   margin-bottom: 1px;
